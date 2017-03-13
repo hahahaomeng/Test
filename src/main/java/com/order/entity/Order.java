@@ -21,15 +21,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "orders", catalog = "ordermanager")
 public class Order implements java.io.Serializable {
-	private Long orderId;
-	private User user;
-	private Product product;
-	private Date paydate;
-	private Integer price;
-	private String notice;
-	private String state;
-	private Date godate;
-	private Integer gonumber;
 	public Order(){
 		
 	}
