@@ -122,8 +122,7 @@ public class UserDAO {
 		return findByProperty(TYPE, type
 				);
 	}
-
-
+	
 	public List<User> findByPhone(Object phone
 			) {
 		return findByProperty(PHONE, phone
